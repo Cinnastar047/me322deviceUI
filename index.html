@@ -62,6 +62,17 @@
 
 <hr>
 <br class="short">
+<!--
+	These buttons currently do not do anything, because we don't have a bluetooth module
+	to test it with. However, if they did communicate with an actual device, pressing the
+	buttons would use the Web Bluetooth API to send a Bluetooth signal to the EZ Flip.
+	The test button would cause the EZ Flip to respond in some small way (light flash,
+	wheels move backwards a little, etc.). The start button would cause the EZ Flip to
+	begin its install sequence and change the "reset" button to a "stop" button. Pressing
+	the "stop" button would terminate the install sequence and switch the button back to
+	a "reset" button. Pressing the reset button would cause the EZ Flip to return to its
+	"home" position (piston contracted, wheels rolled back if necessary).
+-->
 <button id="test">Test</button>
 <br>
 <button id="start">Start</button>

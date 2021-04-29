@@ -4,6 +4,25 @@
 <title>Rotatorinator</title>
 <link href="styles.css" rel="stylesheet"/>
 
+    <!-- register service worker -->
+    <script>
+    if ('serviceWorker' in navigator) 
+        {
+          window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./service-worker.js')
+          .then(() => { console.log("[ PWA Fire Bundle ] Service Worker Registered"); });
+        } ); 
+      }  
+    </script>
+    
+    <!-- start of web manifest -->
+    <link rel="manifest" href="./app.webmanifest">
+    <!-- end of web manifest -->
+    
+    <!-- theme-color -->
+	<meta name="theme-color" content="#22b1e0" />
+    <!-- end-theme-color -->
+
 </head>
 <body>
 

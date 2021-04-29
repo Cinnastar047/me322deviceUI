@@ -1,0 +1,33 @@
+{
+          "background_color": "#22b1e0",
+          "display": "standalone",
+          "orientation":"portrait",
+          "theme_color": "#22b1e0",           
+          "short_name": "EZ Flip",
+          "name": "EZ Flip Controller",
+          "description": "This webapp controls the EZ Flip device made by Group LB6 of ME 322 Spring 2021 at Stevens Institute of Technology",
+          "lang": "en-US",
+          "icons": [
+          {
+            "src": "Icons/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "Icons/logo256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+          },
+          {
+            "src": "Icons/logo72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+          },
+          {
+            "src": "Icons/logo48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+          }
+          ],
+          "start_url": "index.html?launcher=true"
+}

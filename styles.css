@@ -3,6 +3,10 @@ body {
 	font-family: Verdana, sans-serif;
 }
 
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
 #title {
 	text-align: center;
 	color: #fff;
